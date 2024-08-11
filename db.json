@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "nguyen_van_a",
+      "password": "password123",
+      "role": "admin",
+      "created_at": "2024-07-01T08:00:00Z",
+      "updated_at": "2024-07-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "username": "tran_van_b",
+      "password": "password456",
+      "role": "user",
+      "created_at": "2024-07-02T09:00:00Z",
+      "updated_at": "2024-07-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "username": "le_thi_c",
+      "password": "password789",
+      "role": "user",
+      "created_at": "2024-07-03T10:00:00Z",
+      "updated_at": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "pham_van_d",
+      "password": "password101",
+      "role": "admin",
+      "created_at": "2024-07-04T11:00:00Z",
+      "updated_at": "2024-07-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "username": "nguyen_thi_e",
+      "password": "password202",
+      "role": "user",
+      "created_at": "2024-07-05T12:00:00Z",
+      "updated_at": "2024-07-05T12:00:00Z"
+    }
+  ],
+  "word_types": [
+    {
+      "id": 1,
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "type": "adjective"
+    },
+    {
+      "id": 4,
+      "type": "adverb"
+    },
+    {
+      "id": 5,
+      "type": "preposition"
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "word": "house",
+      "language": "en",
+      "phonetic_uk": "haʊs",
+      "phonetic_us": "haʊs",
+      "notes": "Commonly used word",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-07-01T08:00:00Z",
+      "updated_at": "2024-07-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "word": "nhà",
+      "language": "vi",
+      "phonetic_uk": "",
+      "phonetic_us": "",
+      "notes": "Word for 'house' in Vietnamese",
+      "created_by": 2,
+      "updated_by": 2,
+      "created_at": "2024-07-02T09:00:00Z",
+      "updated_at": "2024-07-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "word": "run",
+      "language": "en",
+      "phonetic_uk": "rʌn",
+      "phonetic_us": "rʌn",
+      "notes": "Commonly used word",
+      "created_by": 3,
+      "updated_by": 3,
+      "created_at": "2024-07-03T10:00:00Z",
+      "updated_at": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "word": "chạy",
+      "language": "vi",
+      "phonetic_uk": "",
+      "phonetic_us": "",
+      "notes": "Word for 'run' in Vietnamese",
+      "created_by": 4,
+      "updated_by": 4,
+      "created_at": "2024-07-04T11:00:00Z",
+      "updated_at": "2024-07-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "word": "beautiful",
+      "language": "en",
+      "phonetic_uk": "ˈbjuː.tɪ.fəl",
+      "phonetic_us": "ˈbjuː.t̬ɪ.fəl",
+      "notes": "Describing word",
+      "created_by": 5,
+      "updated_by": 5,
+      "created_at": "2024-07-05T12:00:00Z",
+      "updated_at": "2024-07-05T12:00:00Z"
+    }
+  ],
+  "definitions": [
+    {
+      "id": 1,
+      "word_id": 1,
+      "type_id": 1,
+      "definition": "A building for human habitation.",
+      "created_at": "2024-07-01T08:00:00Z",
+      "updated_at": "2024-07-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "word_id": 2,
+      "type_id": 1,
+      "definition": "Một tòa nhà để ở.",
+      "created_at": "2024-07-02T09:00:00Z",
+      "updated_at": "2024-07-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "word_id": 3,
+      "type_id": 2,
+      "definition": "Move at a speed faster than a walk.",
+      "created_at": "2024-07-03T10:00:00Z",
+      "updated_at": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "word_id": 4,
+      "type_id": 2,
+      "definition": "Di chuyển nhanh hơn đi bộ.",
+      "created_at": "2024-07-04T11:00:00Z",
+      "updated_at": "2024-07-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "word_id": 5,
+      "type_id": 3,
+      "definition": "Pleasing the senses or mind aesthetically.",
+      "created_at": "2024-07-05T12:00:00Z",
+      "updated_at": "2024-07-05T12:00:00Z"
+    }
+  ],
+  "examples": [
+    {
+      "id": 1,
+      "definition_id": 1,
+      "example": "I live in a big house.",
+      "created_at": "2024-07-01T08:00:00Z",
+      "updated_at": "2024-07-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "definition_id": 2,
+      "example": "Tôi sống trong một ngôi nhà lớn.",
+      "created_at": "2024-07-02T09:00:00Z",
+      "updated_at": "2024-07-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "definition_id": 3,
+      "example": "She can run very fast.",
+      "created_at": "2024-07-03T10:00:00Z",
+      "updated_at": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "definition_id": 4,
+      "example": "Cô ấy có thể chạy rất nhanh.",
+      "created_at": "2024-07-04T11:00:00Z",
+      "updated_at": "2024-07-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "definition_id": 5,
+      "example": "The view from the top is beautiful.",
+      "created_at": "2024-07-05T12:00:00Z",
+      "updated_at": "2024-07-05T12:00:00Z"
+    }
+  ]
+}
