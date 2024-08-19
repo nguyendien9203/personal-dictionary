@@ -2,11 +2,20 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#006FEE',
+        primaryHover: '#005BC4',
+        primaryDisable: '#99C7FB',
+        secondary: '#E4E4E7',
+        secondaryHover: '#D4D4D8',
+        danger: '#dc3545',
+        dangerHover: '#c82333'
+      }
+    },
   },
   plugins: [],
 }

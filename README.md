@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project is a personal dictionary application built using modern web technologies. It allows users to search for words, view their details, and manage their own word entries. The application uses JSON Server to simulate an API, NextUI for the user interface components, Tailwind CSS for styling, and Vite for development tooling.
+This project is a personal dictionary application built using modern web technologies. It allows users to search for words, view their details, and manage their own word entries. The application uses JSON Server to simulate an API, Bootstrap for the user interface components, Tailwind CSS for styling, and Vite for development tooling.
 
 ## Technologies Used
 
 - **JSON Server**: Used to create a mock API for development.
-- **NextUI**: Provides a set of React components to build the UI.
+- **Bootstrap**: Provides a set of React components to build the UI.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 - **Vite**: A fast build tool and development server.
 - **React**: The JavaScript library for building user interfaces.
