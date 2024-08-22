@@ -14,6 +14,7 @@ export const DataProvider = ({ children }) => {
     const [searchQuery, setSearchQuery] = useState('');
     const [filterWordTypes, setFilterWordTypes] = useState([]);
     const [selectedWord, setSelectedWord] = useState(null);
+
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -28,6 +29,8 @@ export const DataProvider = ({ children }) => {
                 setDefinitions(definitionsResponse.data);
                 const examplesResponse = await axios.get('http://localhost:9999/examples');
                 setExamples(examplesResponse.data);
+                const proposalResponse = await axios.get('http://localhost:9999/proposals');
+                setProposals(proposalResponse.data);
             } catch (error) {
                 console.log("Error fetching data", error);
             }

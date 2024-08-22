@@ -8,8 +8,7 @@ const Examples = ({ definitionId }) => {
   const filteredExamples = examples.filter(
     (example) => example.definition_id === definitionId
   );
-
-  console.log("example", filteredExamples)
+  
   return (
     <ListGroup variant="flush">
       {filteredExamples.map((example) => (

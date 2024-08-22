@@ -1,7 +1,13 @@
+import Login from "../components/Login";
+import Search from "../components/Search";
+
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
-  )
-}
+    <>
+      <Search />
+      <Login />
+    </>
+  );
+};
 
-export default LoginPage
+export default LoginPage;
