@@ -33,12 +33,10 @@ const WordDetail = () => {
   const { word, phonetic } = wordData;
 
   const relatedDefinitions = definitions.filter(def => def.word_id === parseInt(wordId));
-  console.log('dfgdf', relatedDefinitions)
 
   const typeIds = [...new Set(relatedDefinitions.map(def => def.type_id))];
 
   const relatedWordTypes = wordTypes.filter(wt => typeIds.includes(wt.id));
-  console.log(relatedWordTypes)
 
   return (
     <Card className="my-3">

@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
+      "username": "admin123",
       "password": "admin123",
       "role": "admin",
       "created_at": "2024-08-19T12:00:00Z",
@@ -10,17 +10,17 @@
     },
     {
       "id": 2,
-      "username": "user1",
+      "username": "user123",
       "password": "user123",
-      "role": "user",
+      "role": "member",
       "created_at": "2024-08-19T12:00:00Z",
       "updated_at": "2024-08-19T12:00:00Z"
     },
     {
       "id": 3,
-      "username": "user2",
+      "username": "user456",
       "password": "user456",
-      "role": "user",
+      "role": "member",
       "created_at": "2024-08-19T12:00:00Z",
       "updated_at": "2024-08-19T12:00:00Z"
     }
@@ -37,17 +37,19 @@
     {
       "id": 3,
       "type": "adjective"
+    },
+    {
+      "id": 4,
+      "type": "adverb"
     }
   ],
   "words": [
     {
-      "id": 1,
       "word": "run",
       "phonetic": "rʌn",
-      "created_by": 1,
       "updated_by": 1,
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "updated_at": "2024-08-21T03:45:18.087Z",
+      "id": 1
     },
     {
       "id": 2,
@@ -84,6 +86,100 @@
       "updated_by": 1,
       "created_at": "2024-08-19T12:00:00Z",
       "updated_at": "2024-08-19T12:00:00Z"
+    },
+    {
+      "word": "hello",
+      "phonetic": "həˈləʊ",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T02:53:52.022Z",
+      "updated_at": "2024-08-21T02:53:52.022Z",
+      "id": 6
+    },
+    {
+      "word": "above",
+      "phonetic": "əˈbʌv",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T03:05:23.011Z",
+      "updated_at": "2024-08-21T03:05:23.011Z",
+      "id": 7
+    },
+    {
+      "word": "academic",
+      "phonetic": "ˌækəˈdemɪk",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T03:17:14.744Z",
+      "updated_at": "2024-08-21T03:17:14.744Z",
+      "id": 8
+    },
+    {
+      "word": "addition",
+      "phonetic": "əˈdɪʃn",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T03:26:12.904Z",
+      "updated_at": "2024-08-21T03:26:12.904Z",
+      "type_id": "1",
+      "definition": "Phép cộng",
+      "example": "All of these technologies are fairly recent additions",
+      "meaning": "Tất cả những công nghệ này là những bổ sung khá gần đây",
+      "id": 9
+    },
+    {
+      "word": "addition",
+      "phonetic": "əˈdɪʃn",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T03:26:12.904Z",
+      "updated_at": "2024-08-21T03:26:12.904Z",
+      "id": 10
+    },
+    {
+      "word": "address",
+      "phonetic": "əˈdres",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T03:29:49.001Z",
+      "updated_at": "2024-08-21T03:29:49.001Z",
+      "id": 11
+    },
+    {
+      "word": "advice",
+      "phonetic": "ədˈvaɪs",
+      "created_by": 2,
+      "updated_by": 2,
+      "created_at": "2024-08-21T04:42:15.967Z",
+      "updated_at": "2024-08-21T04:42:15.967Z",
+      "id": 13
+    },
+    {
+      "word": "account",
+      "phonetic": "əˈkaʊnt",
+      "created_by": 2,
+      "updated_by": 2,
+      "created_at": "2024-08-21T05:06:01.918Z",
+      "updated_at": "2024-08-21T05:06:01.918Z",
+      "id": 15
+    },
+    {
+      "word": "achieve",
+      "phonetic": "sdfsdf",
+      "created_by": 2,
+      "updated_by": 2,
+      "created_at": "2024-08-21T05:07:30.519Z",
+      "updated_at": "2024-08-21T05:07:30.519Z",
+      "id": 16
+    },
+    {
+      "word": "act",
+      "phonetic": "ækt",
+      "created_by": 1,
+      "updated_by": 1,
+      "created_at": "2024-08-21T15:24:31.543Z",
+      "updated_at": "2024-08-21T15:24:31.543Z",
+      "id": 17
     }
   ],
   "definitions": [
@@ -96,12 +192,10 @@
       "updated_at": "2024-08-19T12:00:00Z"
     },
     {
-      "id": 2,
-      "word_id": 1,
       "type_id": 2,
-      "definition": "chạy vội",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "definition": "chạy",
+      "updated_at": "2024-08-21T03:45:18.106Z",
+      "id": 2
     },
     {
       "id": 3,
@@ -166,6 +260,78 @@
       "definition": "đặt sách",
       "created_at": "2024-08-19T12:00:00Z",
       "updated_at": "2024-08-19T12:00:00Z"
+    },
+    {
+      "word_id": 6,
+      "type_id": 1,
+      "definition": "Xin chào",
+      "created_at": "2024-08-21T02:53:52.022Z",
+      "updated_at": "2024-08-21T02:53:52.022Z",
+      "id": 11
+    },
+    {
+      "word_id": 7,
+      "type_id": 4,
+      "definition": "Bên trên",
+      "created_at": "2024-08-21T03:05:23.011Z",
+      "updated_at": "2024-08-21T03:05:23.011Z",
+      "id": 12
+    },
+    {
+      "word_id": 8,
+      "type_id": 1,
+      "definition": "Học thuật",
+      "created_at": "2024-08-21T03:17:14.744Z",
+      "updated_at": "2024-08-21T03:17:14.744Z",
+      "id": 13
+    },
+    {
+      "word_id": 10,
+      "type_id": 1,
+      "definition": "Phép cộng",
+      "created_at": "2024-08-21T03:26:12.904Z",
+      "updated_at": "2024-08-21T03:26:12.904Z",
+      "id": 14
+    },
+    {
+      "word_id": 11,
+      "type_id": 1,
+      "definition": "Địa chỉ",
+      "created_at": "2024-08-21T03:29:49.001Z",
+      "updated_at": "2024-08-21T03:29:49.001Z",
+      "id": 15
+    },
+    {
+      "word_id": 13,
+      "type_id": 1,
+      "definition": "Khuyên bảo",
+      "created_at": "2024-08-21T04:42:15.967Z",
+      "updated_at": "2024-08-21T04:42:15.967Z",
+      "id": 17
+    },
+    {
+      "word_id": 15,
+      "type_id": 1,
+      "definition": "Tài khoản",
+      "created_at": "2024-08-21T05:06:01.918Z",
+      "updated_at": "2024-08-21T05:06:01.918Z",
+      "id": 19
+    },
+    {
+      "word_id": 16,
+      "type_id": 1,
+      "definition": "Đạt",
+      "created_at": "2024-08-21T05:07:30.519Z",
+      "updated_at": "2024-08-21T05:07:30.519Z",
+      "id": 20
+    },
+    {
+      "word_id": 17,
+      "type_id": 1,
+      "definition": "Hành động",
+      "created_at": "2024-08-21T15:24:31.543Z",
+      "updated_at": "2024-08-21T15:24:31.543Z",
+      "id": 21
     }
   ],
   "examples": [
@@ -178,12 +344,10 @@
       "updated_at": "2024-08-19T12:00:00Z"
     },
     {
-      "id": 2,
-      "definition_id": 1,
-      "example": "She is running in the park.",
-      "meaning": "Cô ấy đang chạy trong công viên.",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "example": "He runs every morning.",
+      "meaning": "Anh ấy chạy mỗi sáng.",
+      "updated_at": "2024-08-21T03:45:18.146Z",
+      "id": 2
     },
     {
       "id": 3,
@@ -256,48 +420,104 @@
       "meaning": "Anh ấy đặt trước một phòng.",
       "created_at": "2024-08-19T12:00:00Z",
       "updated_at": "2024-08-19T12:00:00Z"
+    },
+    {
+      "definition_id": 11,
+      "example": "Hello John, how are you?",
+      "meaning": "Xin chào John, bạn khỏe không?",
+      "created_at": "2024-08-21T02:53:52.022Z",
+      "updated_at": "2024-08-21T02:53:52.022Z",
+      "id": 12
+    },
+    {
+      "definition_id": 12,
+      "example": "Put it on the shelf above",
+      "meaning": "Đặt nó lên kệ phía trên",
+      "created_at": "2024-08-21T03:05:23.011Z",
+      "updated_at": "2024-08-21T03:05:23.011Z",
+      "id": 13
+    },
+    {
+      "definition_id": 13,
+      "example": "There is much debate among academics about this issue",
+      "meaning": "Có nhiều tranh luận giữa các học giả về vấn đề này",
+      "created_at": "2024-08-21T03:17:14.744Z",
+      "updated_at": "2024-08-21T03:17:14.744Z",
+      "id": 14
+    },
+    {
+      "definition_id": 14,
+      "example": "All of these technologies are fairly recent additions",
+      "meaning": "Tất cả những công nghệ này là những bổ sung khá gần đây",
+      "created_at": "2024-08-21T03:26:12.904Z",
+      "updated_at": "2024-08-21T03:26:12.904Z",
+      "id": 15
+    },
+    {
+      "definition_id": 15,
+      "example": "The policy fails to address the needs of people on low incomes",
+      "meaning": "Chính sách này không giải quyết được nhu cầu của người dân có thu nhập thấp",
+      "created_at": "2024-08-21T03:29:49.001Z",
+      "updated_at": "2024-08-21T03:29:49.001Z",
+      "id": 16
+    },
+    {
+      "definition_id": 17,
+      "example": "We were advised to seek legal advice.",
+      "meaning": "Chúng tôi được khuyên nên tìm tư vấn pháp lý.",
+      "created_at": "2024-08-21T04:42:15.967Z",
+      "updated_at": "2024-08-21T04:42:15.967Z",
+      "id": 18
+    },
+    {
+      "definition_id": 19,
+      "example": "Hiiii",
+      "meaning": "Xin chào",
+      "created_at": "2024-08-21T05:06:01.918Z",
+      "updated_at": "2024-08-21T05:06:01.918Z",
+      "id": 20
+    },
+    {
+      "definition_id": 20,
+      "example": "sjdf",
+      "meaning": "sg",
+      "created_at": "2024-08-21T05:07:30.519Z",
+      "updated_at": "2024-08-21T05:07:30.519Z",
+      "id": 21
+    },
+    {
+      "definition_id": 21,
+      "example": "You have committed a serious criminal act.",
+      "meaning": "Bạn đã phạm một hành vi tội phạm nghiêm trọng.",
+      "created_at": "2024-08-21T15:24:31.543Z",
+      "updated_at": "2024-08-21T15:24:31.543Z",
+      "id": 22
     }
   ],
   "proposals": [
     {
-      "id": 1,
-      "word_id": 1,
+      "word_id": 14,
       "user_id": 2,
-      "status": "pending",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "status": "accepted",
+      "created_at": "2024-08-21T04:42:15.967Z",
+      "updated_at": "2024-08-21T04:42:15.967Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "word_id": 2,
-      "user_id": 3,
-      "status": "pending",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
-    },
-    {
-      "id": 3,
-      "word_id": 3,
+      "word_id": 15,
       "user_id": 2,
-      "status": "approved",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
-    },
-    {
-      "id": 4,
-      "word_id": 4,
-      "user_id": 3,
       "status": "rejected",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "created_at": "2024-08-21T05:06:01.918Z",
+      "updated_at": "2024-08-21T05:06:01.918Z",
+      "id": 2
     },
     {
-      "id": 5,
-      "word_id": 5,
+      "word_id": 16,
       "user_id": 2,
-      "status": "pending",
-      "created_at": "2024-08-19T12:00:00Z",
-      "updated_at": "2024-08-19T12:00:00Z"
+      "status": "accepted",
+      "created_at": "2024-08-21T05:07:30.519Z",
+      "updated_at": "2024-08-21T05:07:30.519Z",
+      "id": 3
     }
   ]
 }
